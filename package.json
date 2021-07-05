@@ -1,0 +1,22 @@
+{
+  "name": "ibm-task",
+  "version": "1.0.0",
+  "description": "Task for JavaScript Application Developer internship at IBM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viliusan/ibm-task.git"
+  },
+  "author": "Vilius Andraitis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viliusan/ibm-task/issues"
+  },
+  "homepage": "https://github.com/viliusan/ibm-task#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
