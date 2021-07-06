@@ -1,12 +1,14 @@
 const express = require('express');
-const axios = require('axios');
+const cors = require('cors');
+
 const app = express();
+
+app.use(cors())
 
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded())
 
 const port = 9999;
-const apiToken = 'd6ec65a52238e8d2bdb0e22179e2327c';
 
 app.post('/clickedArticle', (req, res) => {
     console.log(req.body);
